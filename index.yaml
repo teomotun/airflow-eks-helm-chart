@@ -1,0 +1,164 @@
+apiVersion: v1
+entries:
+  airflow:
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.437703-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: 411a7399044615afd4945ed8620c1bae4971e4eab3c7bc4e977599c003ca9d85
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/airflow-1.0.8.tgz
+    version: 1.0.8
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.432883-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: 8860c797cab3c55f0d6650d37e4b6fa40fd3d98cfa25ac8dffe40ddb93741932
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/airflow-1.0.7.tgz
+    version: 1.0.7
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.427185-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: e158a3ea8ff1db57695641ee9c020bd410efb692137a4360fc18749e90b4c8c9
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/airflow-1.0.6.tgz
+    version: 1.0.6
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.422583-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: 1e4efd9f8034ea808f4d3bee54e1046b528b9907f7e0166c7e7fcb423c690c69
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/airflow-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.417556-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: 654e6dcddcecc9eb69e03fa4bec977ab8f813e4d09da6c975042477a7da31762
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/airflow-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.410937-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: c5bfb09013732e60f87f63c1984a0c26ee28ca687c17fe2cdca1b750f1f82c9d
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/airflow-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.403494-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: 2643827f3c30aee2496ebd5839eebedde6e451496fcfaf57785f9091c0885153
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/airflow-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.398321-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: 1cd7c173dedd9c6f01f3965a1ec8f23e7b936db07140249c4862b9554963efc6
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/airflow-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.39203-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: 9454d8574422126efc1c9acfa36ca8c206b8bc120428358258658d1b74ebbd74
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/airflow-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    created: "2021-05-17T19:26:22.44235-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: '@stable'
+      version: 6.3.12
+    description: Helm chart to deploy Apache Airflow
+    digest: e0fa5d8fefb8426818acdd501a7d866e452c25df7dec4ac30e93a378d59a89c4
+    icon: https://www.astronomer.io/static/airflowNewA.png
+    keywords:
+    - airflow
+    name: airflow
+    urls:
+    - https://edwinguo.github.io/airflow-eks-helm-chart/docs/airflow-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-05-17T19:26:22.384253-04:00"
